@@ -1,0 +1,10 @@
+{
+  "name": "design-review",
+  "displayName": "Design Review",
+  "version": "1.0.0",
+  "description": "Agentic design flow review skills for Uphold — Backend feasibility, BX design, and QA perspectives",
+  "author": {
+    "name": "Murilo Hennemann"
+  },
+  "skills": "./skills/"
+}
