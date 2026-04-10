@@ -35,7 +35,7 @@ Every step of the flow reviewed from the user's perspective — what they expect
 ### 4. UX Risk Register
 The 3–5 biggest risks, each tagged with Uphold's internal UX pain point taxonomy:
 
-| Category | What it flags |
+| UX Pain point | What it flags |
 |----------|--------------|
 | **Comprehension** | Confusing content, jargon, missing labels |
 | **Desirability** | Users understand but aren't motivated to proceed |
