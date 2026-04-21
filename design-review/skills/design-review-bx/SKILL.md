@@ -19,15 +19,20 @@ The user will share screenshots, wireframes, or step-by-step descriptions of a d
 
 Ask the designer:
 
-1. **Design stage** — Where is this in the process?
+1. **Product line** — Which product is this for?
+   - Wallet (consumer-facing crypto/fiat app)
+   - Enterprise (B2B, partner integrations, white-label)
+   - Other (describe briefly)
+
+2. **Design stage** — Where is this in the process?
    - Early exploration (direction still open, no hi-fi yet)
    - Mid-fidelity (structure is set, refining flows)
    - High-fidelity / ready for dev (looking for final validation)
    - Already shipped / post-launch (retroactive review)
 
-2. **Focus area** — What specific part of this experience concerns you most? Is there a particular step, decision point, or user segment you want scrutinized?
+3. **Focus area** — What specific part of this experience concerns you most? Is there a particular step, decision point, or user segment you want scrutinized?
 
-3. **Feedback type** — What kind of feedback is most useful right now?
+4. **Feedback type** — What kind of feedback is most useful right now?
    - Strategic (does this solve the right problem?)
    - Flow & structure (does the sequence make sense?)
    - Copy & tone (does the language land?)
