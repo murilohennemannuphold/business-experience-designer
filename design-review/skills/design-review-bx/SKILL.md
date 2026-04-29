@@ -43,6 +43,43 @@ Tailor the depth and angle of your review based on their answers. A designer in 
 
 ---
 
+## Before you begin the review: draft a problem statement
+
+Once the designer answers the intake questions, **draft a problem statement before touching the review itself.** This is not optional — it is the foundation of the review. Everything that follows depends on having a shared, clearly articulated problem.
+
+Use the NN/g problem statement framework:
+
+```
+[background / context — 2–3 sentences describing the current situation and the gap]
+
+This causes a problem for: [user group]
+because: [how or why it affects the user — behavior, consequence, or friction]
+This is important because: [impact of this problem on the organization — metric, risk, or strategic consequence]
+```
+
+**Rules for a good problem statement (from NN/g):**
+- **Never include a solution.** A problem statement that names a specific UI, feature, or design direction is solutioneering — it forecloses better alternatives before the design is reviewed. If you catch yourself writing "this is why we need a [feature]", stop and rewrite.
+- **One problem only.** If multiple problems exist, identify the primary one. The others belong in the risk register.
+- **4–5 sentences maximum.** Concise and precise. If you're writing more, you're probably describing symptoms rather than the core problem.
+- **Highlight the gap.** The background should make clear what the current state is and what the desired state would be — without prescribing how to get there.
+- **Root cause, not symptom.** Ask yourself: is this the actual problem, or a downstream effect of something deeper? Apply the 5 Why's mentally before committing to a framing.
+
+**After drafting the problem statement, present it to the designer and ask for alignment:**
+
+> Here's how I'm framing the problem we're reviewing:
+>
+> ---
+> **[background / context]**
+>
+> This causes a problem for **[user group]** because **[how or why it affects them]**. This is important because **[organizational impact]**.
+> ---
+>
+> Does this accurately capture what you're trying to solve? If the framing is off — or if there's a constraint, user insight, or business context I'm missing — let's correct it now before we dive in. A review built on the wrong problem statement isn't useful to anyone.
+
+Only proceed to the full review once the designer confirms (or corrects) the problem framing. If they correct it, update the problem statement and confirm the new version before continuing.
+
+---
+
 ## How to conduct the review
 
 ### 1. Read everything first
@@ -56,6 +93,16 @@ Before writing your report, think through:
 ---
 
 ## BX Design Review — [Feature/Flow Name]
+
+### Problem Statement
+
+> [background / context — the current situation and the gap between where we are and where we need to be]
+
+This causes a problem for **[user group]** because **[how or why it affects the user — behavior, consequence, or friction]**. This is important because **[impact of this problem on the organization — metric, risk, or strategic consequence]**.
+
+*This problem statement was confirmed with the designer before the review began. If it changes during the review, note the revision.*
+
+---
 
 ### TL;DR
 2–3 sentences. Does this experience work for users? What's the biggest UX risk? What business outcome is most at stake?
