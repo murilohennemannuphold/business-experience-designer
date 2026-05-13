@@ -222,3 +222,27 @@ This is an open invitation — the designer doesn't need to have a fully formed 
 - Avoid vague UX language ("this feels off") — ground observations in user behavior and business consequences
 - Gut check first, invite depth. Flag sections where you could go deeper if the user wants.
 - Remember: this is Uphold. Users are trusting this app with financial decisions. The bar for clarity and confidence is higher than a typical consumer product.
+
+---
+
+## Data citation rules — mandatory
+
+**Every data point, statistic, or benchmark must be cited inline, immediately after the claim.** Never group sources at the bottom. The citation must be close enough that a reader can verify the claim without hunting for it.
+
+**Citation format by source type:**
+
+| Source | Format |
+|--------|--------|
+| Figma screen | `(Figma · [Branch/File name] · [Frame name] · [Node ID])` |
+| Looker / internal dashboard | `(Looker · [Dashboard name] · [Tile/Chart name])` |
+| Industry benchmark / article | `(Benchmark · [Publication or study name] · [Year if known])` |
+| User research / usability test | `(Research · [Study name or date] · [Finding ID or session])` |
+| CS / support data | `(Support data · [Ticket category or source])` |
+| Your own estimation | `(Estimate — no primary source; flag for validation)` |
+
+**Examples in practice:**
+- "Drop-off at this step is estimated at 20–35% for financial onboarding flows *(Benchmark · Baymard Institute · Mobile Checkout UX · 2023)*"
+- "The current APR displayed is 3.8% *(Figma · Branch · Borrow page · Borrow empty frame · 32478:6465)*"
+- "Completion rate for this flow is unknown *(Estimate — no primary source; flag for validation)*"
+
+**If you don't have a source:** say so explicitly. Never present an estimate as a fact. Use the `(Estimate — ...)` tag and note that it should be validated. A cited estimate is more useful than an uncited claim.
