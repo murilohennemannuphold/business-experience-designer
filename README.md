@@ -18,21 +18,31 @@ Every review it produces follows the same structure, so findings are consistent 
 
 ## What a review covers
 
-### 1. Intake — before it starts, it asks you three things
+### 1. Standing routines — every session, every time
+Before any review begins, the skill applies three non-negotiable routines:
+- **Version check** — it tells you if a newer version of the skill exists in this repo, so you can update before continuing.
+- **Ask, don't assume** — it asks clarifying questions whenever context, intent, or data is missing. No silent guessing.
+- **Always link sources** — every piece of information it shares (benchmarks, Figma frames, dashboards, articles, docs) comes with an inline link. No bare claims.
+
+### 2. Intake — before it starts, it asks you four things
 It won't jump straight into a review. First it asks:
+- **Product line** — is this Wallet (consumer), Enterprise (B2B / white-label), or something else?
 - **Design stage** — are you in early exploration, mid-fi, hi-fi, or reviewing something already shipped?
 - **Focus area** — what specific part worries you most?
 - **Feedback type** — are you after strategic direction, flow logic, copy review, visual consistency, or business risk?
 
 This calibrates the depth and angle. A first-draft wireframe gets directional signal. A pre-launch hi-fi gets precise, actionable findings.
 
-### 2. Fit with the Uphold experience
+### 3. Problem statement — drafted and aligned before the review
+Once intake is done, the skill drafts a problem statement using the [NN/g framework](https://www.nngroup.com/articles/problem-statements/) — background, affected user group, why it matters to them, and the organizational impact. It presents it to you and asks for alignment before going any further. If the framing is wrong, you correct it; a review built on the wrong problem isn't useful to anyone. No solutioneering, one problem only, root cause not symptom.
+
+### 4. Fit with the Uphold experience
 A consistency table across five dimensions: visual consistency, interaction patterns, tone & language, mental model alignment, and trust signals. Each rated 🟢/🟡/🔴. Would a current Uphold user feel at home, or disoriented?
 
-### 3. Step-by-step user experience breakdown
+### 5. Step-by-step user experience breakdown
 Every step of the flow reviewed from the user's perspective — what they expect, what they experience, where they might hesitate or bail, and what that costs the business if left unaddressed.
 
-### 4. UX Risk Register
+### 6. UX Risk Register
 The 3–5 biggest risks, each tagged with Uphold's internal UX pain point taxonomy:
 
 | UX Pain point | What it flags |
@@ -49,17 +59,23 @@ The 3–5 biggest risks, each tagged with Uphold's internal UX pain point taxono
 
 Risks are ranked by severity and include the likely user behavior and the business metric at stake. If one category dominates, the skill calls it out — that's a systemic signal, not just a list of issues.
 
-### 5. Business outcomes
-Hypothesis-style predictions: if the experience works, what should improve? If the UX risk materializes, what could we lose? Grounded in fintech/crypto benchmarks when Uphold-specific data isn't available.
+### 7. Business outcomes
+Hypothesis-style predictions: if the experience works, what should improve? If the UX risk materializes, what could we lose? Grounded in fintech/crypto benchmarks when Uphold-specific data isn't available — and every data point is cited inline so you can verify the source without hunting for it.
 
-### 6. Missed opportunities
+### 8. Missed opportunities
 Realistic additions that could move the business needle without blowing up scope.
 
-### 7. Recommendations
+### 9. Recommendations
 Prioritized list of changes — user benefit and business case for each.
 
-### 8. Invitation to go deeper
+### 10. Invitation to go deeper
 After the first round, it offers to dig further into: drop-off analysis, competitive scan, copy deep-dive, edge cases and error states, or a specific user segment lens.
+
+---
+
+## Data citation rules
+
+Every data point, statistic, or benchmark in a review is cited inline, immediately after the claim — never grouped at the bottom. The skill uses a consistent format for each source type (Figma, Looker, industry benchmark, user research, support data, estimation), so you can verify any finding without hunting for the source. If a number is an estimate without a primary source, it's tagged as such and flagged for validation — never presented as fact.
 
 ---
 
