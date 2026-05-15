@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "business-experience-designer",
+  "description": "Design review skills for Uphold — BX design and UX Writing reviews",
+  "owner": {
+    "name": "Murilo Hennemann"
+  },
+  "plugins": [
+    {
+      "name": "design-review",
+      "description": "Agentic design flow review skills for Uphold — BX design and UX writing perspectives",
+      "author": {
+        "name": "Murilo Hennemann"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/murilohennemannuphold/business-experience-designer.git",
+        "path": "design-review",
+        "ref": "main",
+        "sha": "2deae5aaed71874b2338420a8f8720fd1cbb0f17"
+      }
+    }
+  ]
+}
