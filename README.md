@@ -79,6 +79,31 @@ Every data point, statistic, or benchmark in a review is cited inline, immediate
 
 ---
 
+## Companion skill: Figma Agentic Handoff
+
+Alongside the BX review, this plugin now ships the **`figma-agentic-handoff`** skill — a way to turn a design section into a clean, self-contained handoff that both people and agents can pick up without prior context.
+
+Design work usually gets passed downstream as a scattered mix of Figma frames, Slack threads, and half-remembered decisions. The next person — or the next agent — has to reconstruct the intent before they can act. This skill fixes that. Point it at a Figma section you've shared and it produces a structured handoff block that captures **what the section is, how the flow is put together, and the live metrics it's meant to move** — grounded in the actual Figma file and the conversation around it, never invented.
+
+Why it matters:
+- **Empowers the handoff.** It packages design intent into one honest, self-contained block, so the moment you finish a flow it's ready to travel — to product, to engineering, or to another agent.
+- **Cleaner reading for people and agents alike.** A consistent structure (brief → flow structure → Looker metrics), stamped with the date and owners, means whoever picks it up reads it the same way every time — no archaeology required.
+- **Keeps the design process honest.** It grounds every statement in the file or the conversation, links its sources, and asks rather than guesses when something is unclear — the same standing routines as the BX review.
+
+The output goes to the chat for review **and** into the Figma file as a new section, so the handoff lives right next to the work it describes.
+
+Run it by saying:
+
+> "Hand this off"
+
+or
+
+> "Create a resume of this flow for engineering"
+
+or invoke `/figma-agentic-handoff` directly.
+
+---
+
 ## How to install
 
 ```bash
